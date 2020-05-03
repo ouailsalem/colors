@@ -19,7 +19,7 @@ start.addEventListener('click', () => {
     }
     clicks = 0;
     trackerspan.innerHTML = clicks;
-    start.innerText = "restart"
+    start.style.display ="none";
     play()
 })
 
